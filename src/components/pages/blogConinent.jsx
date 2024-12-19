@@ -1,4 +1,6 @@
+import React from "react";
 import { Content } from "../content";
+
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
 

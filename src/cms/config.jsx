@@ -32,11 +32,11 @@ const config = {
         preview: false,
         frame: true,
       },
-      files: [...home, ...blog],
+      files: [home, blog],
     },
-    ...article,
-    ...continent,
-    ...pays,
+    article,
+    continent,
+    pays,
   ],
 };
 

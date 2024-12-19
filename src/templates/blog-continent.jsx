@@ -7,7 +7,7 @@ import { Layout, BlogContinentComponent } from "../components";
 
 const BlogContinent = ({ data }) => {
   const { frontmatter, fields, html } = data.markdownRemark;
-  const list = data.allMarkdownRemark.edges;
+  // const list = data.allMarkdownRemark.edges;
   return (
     <Layout type="blog" backgroundImg={frontmatter.featuredImage}>
       <Helmet>
@@ -17,10 +17,7 @@ const BlogContinent = ({ data }) => {
         <meta property="og:title" content={`${frontmatter.seo?.title}`} />
         <meta property="og:url" content={`${fields.slug}`} />
       </Helmet>
-      <BlogContinentComponent
-        data={{ ...frontmatter, html: html }}
-        list={list}
-      />
+      <BlogContinentComponent data={{ ...frontmatter, html: html }} list={[]} />
     </Layout>
   );
 };

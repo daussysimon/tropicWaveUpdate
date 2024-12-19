@@ -42,8 +42,6 @@ Long Horn Cows
 
 ![Tour des Chutes du Niagara](/img/_mg_0564.jpg "Tour des Chutes du Niagara")
 
-![Tour des Chutes du Niagara](/img/_mg_0580.jpg "Tour des Chutes du Niagara")
-
 📍  Chutes du Niagara, Canada
 
 ![Chicago](/img/8a07d6d8-1b38-4023-848d-8a18f3d52875_1_105_c.jpeg "Chicago")
